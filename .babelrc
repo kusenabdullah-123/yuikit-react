@@ -15,7 +15,9 @@
             {
                 "minify": true,
                 "transpileTemplateLiterals": false,
-                "pure": true
+                "pure": true,
+                "displayName": false,
+                "fileName": false
             }
         ],
         [
