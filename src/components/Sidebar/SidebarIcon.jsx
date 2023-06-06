@@ -2,7 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import { Icon } from '@iconify/react';
 
-const SidebarIconStyle = styled.a`
+const SidebarIconStyle = styled.div`
     margin-right: .2rem;
 `
 const SidebarIcon = (props) => {

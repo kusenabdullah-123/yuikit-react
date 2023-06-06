@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 
-const SidebarItemStyle = styled.div`
+const SidebarItemStyle = styled.a`
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -7,7 +7,7 @@ const ToogleButtonStyled = styled.div`
 `;
 const ToogleButton = (props) => {
     return <ToogleButtonStyled>
-        <Icon icon={props.icon} width={props?.width ? props.width : 30} height={props?.height ? props.height : 30} />
+        <Icon {...props} icon={props.icon} width={props?.width ? props.width : 30} height={props?.height ? props.height : 30} />
     </ToogleButtonStyled>
 }
 
