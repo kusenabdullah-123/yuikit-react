@@ -1,0 +1,28 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry",
+                "corejs": "3.22"
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        [
+            "babel-plugin-styled-components",
+            {
+                "minify": true,
+                "transpileTemplateLiterals": true,
+                "pure": true
+            }
+        ],
+        [
+            "@babel/plugin-transform-modules-commonjs",
+            {
+                "allowTopLevelThis": true
+            }
+        ]
+    ]
+}
