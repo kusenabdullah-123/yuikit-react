@@ -14,7 +14,7 @@
             "babel-plugin-styled-components",
             {
                 "minify": true,
-                "transpileTemplateLiterals": true,
+                "transpileTemplateLiterals": false,
                 "pure": true
             }
         ],
