@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import { Icon } from '@iconify/react';
+import { Icons } from "../Icon/Icon";
 const RoundedButtonStyled = styled.a`
     cursor: pointer;
     margin-right: .5rem;
@@ -14,7 +14,7 @@ const RoundedButtonStyled = styled.a`
 `;
 const RoundedButton = (props) => {
     return <RoundedButtonStyled {...props}>
-        <Icon icon={props.icon} color={props.color} />
+        <Icons icon={props.icon} color={props.color} width={props?.width ? props.width : 20} height={props?.height ? props.height : 20} />
     </RoundedButtonStyled>
 }
 

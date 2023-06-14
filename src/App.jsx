@@ -27,6 +27,7 @@ const App = () => {
         </component.TopBar>
         <component.Container>
           <component.TitleTable>Data Kelas</component.TitleTable>
+          <component.FloatingButton icon="mdi:plus"height="25" width="25" />
           <Table head={head} body={body} action={action} />
         </component.Container>
       </component.ContentPage>
