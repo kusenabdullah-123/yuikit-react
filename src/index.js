@@ -4,10 +4,16 @@ import { SidebarItem } from "./components/Sidebar/SidebarItem";
 import { SidebarIcon } from "./components/Sidebar/SidebarIcon";
 import { SidebarList } from "./components/Sidebar/SidebarList"
 import { Wrapper } from "./components/Wrapper/Wrapper";
-import {TopBar} from "./components/Content/TopBar"
-import {ToogleButton} from "./components/Content/ToogleButton"
+import { TopBar } from "./components/Content/TopBar"
+import { ToogleButton } from "./components/Content/ToogleButton"
+import { ContentPage } from "./components/Content/ContentPage"
+import { MenuAction } from "./components/Content/MenuAction"
+import { FloatingButton } from "./components/Button/FloatingButton"
+import { RoundedButton } from "./components/Button/RoundedButton"
+import { Container } from "./components/Wrapper/Container";
+import { TitleTable } from "./components/Content/TableTitle"
+import { Table } from "./components/Content/Table"
 import * as styled from "styled-components"
-
 export {
-    Sidebar, SidebarHeading, Wrapper, styled, SidebarIcon, SidebarItem, SidebarList,TopBar,ToogleButton
+    Sidebar, SidebarHeading, Wrapper, styled, SidebarIcon, SidebarItem, SidebarList, TopBar, ToogleButton, ContentPage, MenuAction, FloatingButton, RoundedButton, Container,Table,TitleTable
 }

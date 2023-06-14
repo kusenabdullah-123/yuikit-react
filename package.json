@@ -1,12 +1,13 @@
 {
   "name": "yuikit-react",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "yukit react for dashboard admin",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
-    "build": "babel src -d dist --copy-files",
-    "clean": "rm -rf dist"
+    "build": "babel src/components -d dist --copy-files && babel src/index.js --out-file dist/index.js --copy-files",
+    "clean": "rm -rf dist",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -29,10 +30,16 @@
     "@babel/plugin-transform-modules-commonjs": "^7.21.5",
     "@babel/preset-env": "^7.22.4",
     "@babel/preset-react": "^7.22.3",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react-swc": "^3.3.2",
     "babel-loader": "^9.1.2",
     "babel-plugin-styled-components": "^2.1.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.5",
+    "vite": "^4.3.9"
   },
   "peerDependencies": {
     "react": "^18.2.0",

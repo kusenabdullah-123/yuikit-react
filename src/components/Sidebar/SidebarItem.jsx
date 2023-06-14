@@ -9,6 +9,9 @@ const SidebarItemStyle = styled.a`
     width: 15rem;
     border-bottom: solid 1px #dee2e6;
     margin-top: .4rem;
+    text-decoration:none;
+    color:#000000;
+    cursor:pointer;
 `
 const SidebarItem = (props) => {
     return <SidebarItemStyle {...props}>{props.children}</SidebarItemStyle>
