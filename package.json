@@ -1,11 +1,11 @@
 {
   "name": "yuikit-react",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "yukit react for dashboard admin",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
-    "build": "babel src/components -d dist --copy-files && babel src/index.js --out-file dist/index.js --copy-files",
+    "build": "babel src/components -d dist/components --copy-files && babel src/index.js --out-file dist/index.js --copy-files",
     "clean": "rm -rf dist",
     "dev": "vite"
   },
