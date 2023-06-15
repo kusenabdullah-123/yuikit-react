@@ -1,6 +1,6 @@
 import * as component from "./index"
 import { useState } from "react"
-import { Table } from "./components/Content/Table"
+
 const App = () => {
   const [toogle, setToogle] = useState(true)
   const head = ["No", "Nama", "Action"];
@@ -28,7 +28,7 @@ const App = () => {
         <component.Container>
           <component.TitleTable>Data Kelas</component.TitleTable>
           <component.FloatingButton icon="mdi:plus"height="25" width="25" />
-          <Table head={head} body={body} action={action} />
+          <component.Table head={head} body={body} action={action} />
         </component.Container>
       </component.ContentPage>
     </component.Wrapper>
