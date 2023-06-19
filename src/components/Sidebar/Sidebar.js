@@ -9,5 +9,5 @@ const Sidebar = (props) => {
     return <SidebarStyled {...props}>{props.children}</SidebarStyled>
 }
 
-export { Sidebar }
+export  { Sidebar }
 

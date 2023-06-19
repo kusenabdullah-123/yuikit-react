@@ -1,14 +1,5 @@
 {
-    "presets": [
-        [
-            "@babel/preset-env",
-            {
-                "useBuiltIns": "entry",
-                "corejs": "3.22"
-            }
-        ],
-        "@babel/preset-react"
-    ],
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
     "plugins": [
         [
             "babel-plugin-styled-components",
@@ -18,12 +9,6 @@
                 "pure": true,
                 "displayName": false,
                 "fileName": false
-            }
-        ],
-        [
-            "@babel/plugin-transform-modules-commonjs",
-            {
-                "allowTopLevelThis": true
             }
         ]
     ]
