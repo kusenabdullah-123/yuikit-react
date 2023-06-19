@@ -1,6 +1,6 @@
 {
   "name": "@kusena/yuikit-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yukit react for dashboard admin",
   "main": "dist/index.js",
   "scripts": {
