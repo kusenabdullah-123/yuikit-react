@@ -10,6 +10,6 @@
                 "displayName": false,
                 "fileName": false
             }
-        ]
+        ],["@babel/plugin-transform-modules-commonjs"]
     ]
 }
