@@ -17,6 +17,9 @@ const router = createBrowserRouter([
       {
         path: "kelas/",
         element: <Kelas />
+      },{
+        path: "kelas/insert",
+        element: <Insert />
       }
 
     ]

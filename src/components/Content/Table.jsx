@@ -55,7 +55,7 @@ const Table = (props) => {
                             <MenuAction key={useId()}>
                                 {
                                     action.map((ac) => {
-                                        return <RoundedButton key={useId()} icon={ac.icon} color="white" />
+                                        return <RoundedButton key={useId()} icon={ac.icon} color="white" go={ac.url} />
                                     })
                                 }
                             </MenuAction>

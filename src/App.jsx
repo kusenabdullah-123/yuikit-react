@@ -4,9 +4,6 @@ import { Outlet } from "react-router-dom";
 
 const App = () => {
   const [toogle, setToogle] = useState(true)
-  const head = ["No", "Nama", "Action"];
-  const body = [["1", "kusen"], ["2", "kusena"], ["3", "kusenadev"], ["4", "kusendev"]]
-  const action = [{ url: "", icon: "mdi:pencil" }, { url: "", icon: "mdi:trash" }]
   return <>
     <component.Wrapper>
       <component.Sidebar toogled={+toogle}>
