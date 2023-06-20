@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import React from "react";
+import { Link } from "react-router-dom";
 
-const SidebarItemStyle = styled.a`
+const SidebarItemStyle = styled(Link)`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,6 +15,6 @@ const SidebarItemStyle = styled.a`
     cursor:pointer;
 `
 const SidebarItem = (props) => {
-    return <SidebarItemStyle {...props}>{props.children}</SidebarItemStyle>
+    return <SidebarItemStyle to={props.go}>{props.children}</SidebarItemStyle>
 }
 export { SidebarItem }
