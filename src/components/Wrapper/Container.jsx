@@ -4,8 +4,8 @@ const ContainerStyled = styled.div`
     padding: 1.5rem;
     position: relative;
 `;
-const Container = ({ children }) => {
-    return <ContainerStyled>{children}</ContainerStyled>
+const Container = (props) => {
+    return <ContainerStyled {...props}>{props.children}</ContainerStyled>
 }
 
 export { Container }

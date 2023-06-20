@@ -13,7 +13,8 @@ import { RoundedButton } from "./components/Button/RoundedButton"
 import { Container } from "./components/Wrapper/Container";
 import { TitleTable } from "./components/Content/TableTitle"
 import { Table } from "./components/Content/Table"
+import { FormInput } from "./components/Form/FormInput"
 import * as Router from "react-router-dom"
 export {
-    Sidebar, SidebarHeading, Wrapper, SidebarIcon, SidebarItem, SidebarList, TopBar, ToogleButton, ContentPage, MenuAction, FloatingButton, RoundedButton, Container,Table,TitleTable,Router
+    Sidebar, SidebarHeading, Wrapper, SidebarIcon, SidebarItem, SidebarList, TopBar, ToogleButton, ContentPage, MenuAction, FloatingButton, RoundedButton, Container, Table, TitleTable, Router, FormInput
 }

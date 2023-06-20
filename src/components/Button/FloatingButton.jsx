@@ -8,7 +8,7 @@ const FloatingButtonStyled = styled.a`
     height: 3.7rem;
     bottom: 2.5rem;
     right: 2.5rem;
-    background-color: #0C9;
+    background-color: #0d6efd;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
