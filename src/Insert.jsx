@@ -1,12 +1,10 @@
 import * as component from "./index"
-import { useState } from "react"
 
 const Insert = () => {
-  const [toogle, setToogle] = useState(true)
   return <>
         <component.Container>
           <component.TitleTable>Data Kelas</component.TitleTable>
-          <component.FloatingButton icon="mdi:plus"height="25" width="25" />
+          <component.FloatingButton icon="mdi:plus"height="25" width="25" color="red" />
           <form action="">
             <component.FormInput id="nama" textinput name="nama" labelname="Nama" />
             <component.FormInput id="password" passwordinput name="password" labelname="Password" />
