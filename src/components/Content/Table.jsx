@@ -31,7 +31,7 @@ padding: .5rem;`
 const Table = (props) => {
     const head = props?.head ? props?.head : []
     const body = props?.body ? props?.body : [];
-    const action = props?.action ? props?.action : [{ url: "", icon: "" }];
+    const action = props?.action ? props?.action : [{ url: "", icon: "",type:"button" }];
     return <TableStyled>
         <TheadStyled>
             <tr>
@@ -55,7 +55,7 @@ const Table = (props) => {
                             <MenuAction key={useId()}>
                                 {
                                     action.map((ac) => {
-                                        return <RoundedButton key={useId()} icon={ac.icon} color="white" go={ac.url} />
+                                        return <RoundedButton key={useId()} type={ac.type} icon={ac.icon} color="white" go={ac.url} />
                                     })
                                 }
                             </MenuAction>
