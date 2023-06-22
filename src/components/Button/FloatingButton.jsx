@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import React from "react";
 import { Icons } from "../Icon/Icon";
-const FloatingButtonStyled = styled.a`
+const FloatingButtonStyled = styled.button`
     cursor: pointer;
     position: fixed;
     width: 3.7rem;
     height: 3.7rem;
     bottom: 2.5rem;
     right: 2.5rem;
-    background-color: #0d6efd;
+    background-color: ${props => props.bg ? props.bg : '#3485FD'};
     color: #FFF;
     border-radius: 50px;
     text-align: center;
