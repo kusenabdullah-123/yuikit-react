@@ -17,6 +17,7 @@ import { FormInput } from "./components/Form/FormInput"
 import {FormFile} from "./components/Form/FormFile"
 import {ErrorPage} from "./components/Error/404"
 import * as Router from "react-router-dom"
+import { Button } from "./components/Button/Button";
 export {
-    Sidebar, SidebarHeading, Wrapper, SidebarIcon, SidebarItem, SidebarList, TopBar, ToogleButton, ContentPage, MenuAction, FloatingButton, RoundedButton, Container, Table, TitleTable, Router, FormInput,FormFile,ErrorPage
+    Sidebar, SidebarHeading, Wrapper, SidebarIcon, SidebarItem, SidebarList, TopBar, ToogleButton, ContentPage, MenuAction, FloatingButton, RoundedButton, Container, Table, TitleTable, Router, FormInput,FormFile,ErrorPage,Button
 }

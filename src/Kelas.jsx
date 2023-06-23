@@ -7,7 +7,8 @@ const Kelas = () => {
     return <>
         <component.Container>
             <component.TitleTable>Data Kelas</component.TitleTable>
-            <component.FloatingButton icon="mdi:plus" height="25" width="25" bg="red" />
+            <component.Button name="Baru" />
+            {/* <component.FloatingButton icon="mdi:plus" height="25" width="25" bg="red" /> */}
             <component.Table head={head} body={body} action={action} />
         </component.Container>
 
