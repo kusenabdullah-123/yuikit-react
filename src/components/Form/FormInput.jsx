@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import React,{forwardRef} from "react";
+import React, { forwardRef } from "react";
 import { Label } from "./Label";
 const FormInputStyled = styled.div`
   margin-bottom: 1.1rem;
@@ -38,20 +38,21 @@ const TextAreaStyled = styled.textarea`
     outline: #0c9 1px solid;
   }
 `;
-const FormInput = forwardRef((props,ref) => {
+const FormInput = forwardRef((props, ref) => {
   return (
     <FormInputStyled>
       <Label htmlFor={props.id} name={props.labelname} />
       {props.textinput || props.passwordinput ? (
-        <InputStyled ref={ref}
+        <InputStyled
+          ref={ref}
           {...props}
           type={props.passwordinput ? "password" : "text"}
         />
       ) : (
-        <TextAreaStyled {...props} />
+        <TextAreaStyled ref={ref} {...props} />
       )}
     </FormInputStyled>
   );
-})
+});
 
 export { FormInput };

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import React from "react";
+import React, { forwardRef } from "react";
 
 const FormFileStyled = styled.div`
   margin-bottom: 1.1rem;
@@ -24,12 +24,12 @@ const InputFileStyled = styled.input`
     cursor: pointer;
   }
 `;
-const FormFile = (props) => {
+const FormFile = forwardRef((props, ref) => {
   return (
     <FormFileStyled>
-      <InputFileStyled type="file" {...props} />
+      <InputFileStyled ref={ref} type="file" {...props} />
     </FormFileStyled>
   );
-};
+});
 
 export { FormFile };
